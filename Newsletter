@@ -1,0 +1,34 @@
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            color: #4CAF50;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .content {
+            font-size: 14px;
+            color: #333333;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="header">Welcome to Our Service</h1>
+    <p class="content">Hello {!Recipient.Name},</p>
+    <p class="content">
+        Thank you for joining our service. We are glad to have you on board.
+    </p>
+    <p class="content">
+        <img src="https://salescraft-us--c.vf.force.com/resource/1718045039000/TryCranium" />
+    </p>
+    <p class="content">
+        <img src="https://salescraft-us--c.vf.force.com/resource/1718045189000/LatestReview?" />
+    </p>
+     <p class="content">
+        <img src="https://salescraft-us--c.vf.force.com/resource/1718045268000/SunnyHill?"/>
+    </p>
+</body>
+</html>
