@@ -1,6 +1,22 @@
 <html>
-<head>
-    <style>
+<body>
+    <p class="content">
+        <img src="https://salescraft-us--c.vf.force.com/resource/1718045039000/TryCranium" />
+    </p>
+    <p class="content padded"> 
+           All of which you can see in-action right <a href="https://www.loom.com/share/99402920c04c4e58a2ae567e46f4f9fd" style="color: #217eba; text-decoration: underline;">here</a>.
+     </p>
+    <p class="content">
+        <img src="https://salescraft-us--c.vf.force.com/resource/1718045189000/LatestReview?" />
+    </p>
+     <p class="content">
+        <img src="https://salescraft-us--c.vf.force.com/resource/1718045268000/SunnyHill?"/>
+    </p>
+</body>
+</html>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
         body {
             font-family: Arial, sans-serif;
         }
@@ -10,25 +26,13 @@
             font-weight: bold;
         }
         .content {
-            font-size: 14px;
-            color: #333333;
+            font-size: 16px;
+            color: #217eba;
+            font-family: 'Barlow', sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+       .padded {
+            padding-left: 50px; /* Adjust the padding value as needed */
         }
     </style>
-</head>
-<body>
-    <h1 class="header">Welcome to Our Service</h1>
-    <p class="content">Hello {!Recipient.Name},</p>
-    <p class="content">
-        Thank you for joining our service. We are glad to have you on board.
-    </p>
-    <p class="content">
-        <img src="https://salescraft-us--c.vf.force.com/resource/1718045039000/TryCranium" />
-    </p>
-    <p class="content">
-        <img src="https://salescraft-us--c.vf.force.com/resource/1718045189000/LatestReview?" />
-    </p>
-     <p class="content">
-        <img src="https://salescraft-us--c.vf.force.com/resource/1718045268000/SunnyHill?"/>
-    </p>
-</body>
-</html>
